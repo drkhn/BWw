@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9049422044222389045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8783085545834947908}
+  - component: {fileID: 3029970311439475926}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8783085545834947908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049422044222389045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3029970311439475926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049422044222389045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddaf452c3cc991b4b95b283636913465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapTheColor: {fileID: 5541260388037264184, guid: b0e9ea9d091fc8c47965e6c5ef0d5985, type: 3}
+  spinningBlock: {fileID: 3348607673596581875, guid: 75e8965ad02c4a24889ef111f001c47d, type: 3}
+  followTheLeader: {fileID: 7347948329956528212, guid: 0112b404f5a79984c8479e5b5f2b1411, type: 3}
+  simpliCity: {fileID: 3036791548499360183, guid: 9e1f4adf9a73b414f98806e371b4aeb6, type: 3}
+  concentration: {fileID: 7572877391225996383, guid: dcbaa440d0df03143a10e73c0a87b35a, type: 3}
+  prefab: {fileID: 0}
+  brainSO: {fileID: 11400000, guid: 50bfe92389a0e8843b2532dbca48ee6a, type: 2}

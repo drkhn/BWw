@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5681504750217491726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5681504750217491725}
+  - component: {fileID: 5681504750217491724}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5681504750217491725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5681504750217491726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5681504750217491724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5681504750217491726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6161681e453085841a740511a346c572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenu: {fileID: 0}
+  mainPanel: {fileID: 0}
+  gamePanel: {fileID: 0}
+  tapTheColorMemorizedButton: {fileID: 0}
+  tapTheColorEndGame: {fileID: 0}
+  TTHEndPanelscoreText: {fileID: 0}
+  TTHEndPanelSlider1: {fileID: 0}
+  TTHEndPanelSlider2: {fileID: 0}
+  TTHEndPanelSliderValue1: {fileID: 0}
+  TTHEndPanelSliderValue2: {fileID: 0}
+  spinnigBlockMemorizedButton: {fileID: 0}
+  spinnigBlockEndGame: {fileID: 0}
+  SPEndPanelscoreText: {fileID: 0}
+  SPEndPanelSlider1: {fileID: 0}
+  SPEndPanelSlider2: {fileID: 0}
+  SPEndPanelSliderValue1: {fileID: 0}
+  SPEndPanelSliderValue2: {fileID: 0}
+  followTheLeaderMemorizedButton: {fileID: 0}
+  followTheLeaderEndGame: {fileID: 0}
+  FTLEndPanelscoreText: {fileID: 0}
+  FTLEndPanelSlider1: {fileID: 0}
+  FTLEndPanelSlider2: {fileID: 0}
+  FTLEndPanelSliderValue1: {fileID: 0}
+  FTLEndPanelSliderValue2: {fileID: 0}
+  tapTheColorPanel: {fileID: 0}
+  spinnigBlockPanel: {fileID: 0}
+  followThePanelPanel: {fileID: 0}
